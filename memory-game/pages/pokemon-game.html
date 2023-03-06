@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/pokemon-game.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <main>
+        <header>
+            <span class="player"></span>
+            <span>Tempo: <span class="timer">00</span></span>
+        </header>
+        <div class="game-status game-status-disabble">
+            <h3>Muito bem <strong id="nome"></strong></h3>
+            <p>Você Finalizou o jogo</p>
+            <p>Seu tempo foi de <strong id="segundos">00</strong> segundos</p>
+            <p>Escolha umas das opções Abaixo</p>
+            <div class="actions">
+                <button class="restart">Restart Game</button>
+                <button class="initial-page">Ir para pagina inicial</button>
+            </div>
+        </div>
+        <div class="grid"></div>
+        <script src="../js/pokemon-game.js"></script>
+    </main>
+</body>
+</html>
